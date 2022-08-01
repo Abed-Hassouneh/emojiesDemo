@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.example.cusotmviewdemo.CustomTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+&#128077; \t\t &#128078; \t\t &#x2764; \t\t &#129327; \t\t &#11088;\n\n
+&#128514; \t\t &#128516; \t\t &#128076; \t\t &#128588; \t\t &#127881;\n\n
+&#129395; \t\t &#x1F917; \t\t &#128546; \t\t &#129298; \t\t &#127942;\n\n
+&#128175; \t\t &#128161; \t\t &#128131; \t\t &#128378; \t\t &#129315;\n\n
+&#128079; \t\t &#129300; \t\t &#9995; \t\t &#9989; \t\t &#129321;\n\n
+&#128556; \t\t &#129310; \t\t &#129351; \t\t &#129392; \t\t &#128285;\n\n"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
